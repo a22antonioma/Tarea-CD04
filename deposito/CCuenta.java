@@ -6,7 +6,7 @@ package deposito;
  * 
  * @author: a22antonioma
  * 
- * @version: 02/03/2023a
+ * @version: 02/03/2023b
  * 
  * @see <https://github.com/a22antonioma</a>
  * 
@@ -19,18 +19,30 @@ public class CCuenta {
     private double saldo;
     private double tipoInterés;
 
+    /**
+     * @return String
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     * @param nombre
+     */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
+    /**
+     * @return String
+     */
     public String getCuenta() {
         return cuenta;
     }
 
+    /**
+     * @param cuenta
+     */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
@@ -84,7 +96,7 @@ public class CCuenta {
     /**
      * ingresa una cantidad en el saldo
      * 
-     * @param cantidad
+     * @param cantidad valor para retirar.
      * @throws Exception error si la varaiable cantidad es negativa.
      */
     public void ingresar(double cantidad) throws Exception {

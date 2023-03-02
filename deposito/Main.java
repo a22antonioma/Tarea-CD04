@@ -2,8 +2,9 @@ package deposito;
 
 public class Main {
     /**
-     * sfdsff
      * 
+     * @author a22antonioma
+     * @version 02/03/2023b
      * @param args
      */
     public static void main(String[] args) {
@@ -19,6 +20,10 @@ public class Main {
         operativa_cuenta(cuenta1, cantidad);
     }
 
+    /**
+     * @param cuenta1  objeto sobre el que trabajan los metodos.
+     * @param cantidad define el valor a ingresar - retirar
+     */
     private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
         try {
             cuenta1.retirar(cantidad);
