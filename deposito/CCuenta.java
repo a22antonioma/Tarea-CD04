@@ -1,5 +1,10 @@
 package deposito;
 
+/**
+ * fdñlkdfsk
+ * ñdkldsfk
+ */
+
 public class CCuenta {
 
     private String nombre;
