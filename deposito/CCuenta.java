@@ -47,6 +47,9 @@ public class CCuenta {
         this.cuenta = cuenta;
     }
 
+    /**
+     * @return double
+     */
     public double getSaldo() {
         return saldo;
     }
@@ -55,10 +58,16 @@ public class CCuenta {
         this.saldo = saldo;
     }
 
+    /**
+     * @return tipoInterés
+     */
     public double getTipoInterés() {
         return tipoInterés;
     }
 
+    /**
+     * @param tipoInteres
+     */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
     }
@@ -70,7 +79,7 @@ public class CCuenta {
     }
 
     /**
-     * cosntructor con parametros para CCuenta.
+     * constructor con parametros para CCuenta.
      * 
      * @param nom  indica el nombre de la cuenta.
      * @param cue  indica el numero de cuenta.
